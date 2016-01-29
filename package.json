@@ -1,0 +1,26 @@
+{
+  "name": "gulp-biz-server",
+  "version": "0.0.1",
+  "description": "biz-server gulp plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "demo": "gulp --gulpfile demo/gulpfile.js"
+  },
+  "keywords": [
+    "biz-server",
+    "gulp",
+    "mock"
+  ],
+  "author": "yanyu",
+  "license": "MIT",
+  "dependencies": {
+    "biz-server": "^0.2.0",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "opener": "^1.4.1",
+    "path": "^0.12.7"
+  }
+}
